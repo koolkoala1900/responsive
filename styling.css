@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Figtree:300,400,500,700,900");
+
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+body {
+	font-family: "Figtree", sans-serif;
+  letter-spacing: 0.6px;
+	line-height: 32px;
+	text-align: left;
+	background-color: #fff;
+	font-weight: 450;
+	color: #4a4e53;
+  }
+
+.h1, .h2, .h3, .h4, .h5, .h6, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  color: #1b2026;
+  margin: 5rem;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.h1, h1 {
+  font-size: 2.4rem;
+  margin-top: 5rem;
+  line-height: 42px;
+  font-weight: 610;
+}
+
+.h2, h2 {
+  font-size: 1.7rem;
+  font-weight: 610;
+  line-height: 32px;
+  padding-top: 2rem;
+  margin-bottom: 10px;
+}
+
+.h5, h5 {
+  font-size: 1rem;
+  font-weight: 510;
+  line-height: 22px;
+  letter-spacing: 2.1px;
+  margin-bottom: 15px;
+  color: #6E9ABC;
+}
+
+p {
+  margin-left: 5.5vw;
+  margin-right: 5.5vw;
+	margin-top: 11px;
+  letter-spacing: 0.28px;
+  font-size: 20px;
+  }
+
+.container {
+	padding-right: 13vw;
+	padding-left: 13vw;
+}
+
+.project-section-title-bar {
+  margin-right:59rem;
+  margin-left: 59rem;
+  padding-bottom: 4.5px;
+  background-color: #6E9ABC;
+ }
+
+a {
+  color: #6E9ABC;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

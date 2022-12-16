@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Responsive Redesign</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styling.css">
+<style>
+
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Responsive Redesign: Toronto Cupcake &#129473;</h1>
+  <h5>PROJECT PROMPT</h5>
+  <p>In this project, we picked one page of a website to analyze based on usability and accessibility standards. Then, we built the redesigned version of this webpage. Takeaways: I gained the skills necessary to analyze and identify flaws in an existing interface, create low-fidelity and high-fidelity prototypes for various screen sizes, and build a responsive website based on those prototypes. </p> 
+</div>
+
+<!-- Orig -->
+<div class="container">
+  <br>
+  <div class="project-section-title-bar"></div>
+    <h5> PICKING A WEBPAGE</h5>
+    <center> <img src="original.png" style="width:100%;max-width:1200px"/> </center>
+   <p>The website I chose is <a href="https://www.torontocupcake.com/">Toronto Cupcake</a> (https://www.torontocupcake.com/)
+    <p> I chose to redesign this website since the home page has poor design choices, is visually unappealing, contains accessibility issues, and has potential for lots of improvement. Also, I love cupcakes.</p>
+
+
+<!-- Q Container -->
+    <h5 >FINDING PROBLEMS</h5>
+    <p>I started by analyzing the usability of the web page using the criteria we learned about in class: usability (e.g., including efficiency), learnability, and memorability, and think about its conceptual model. Here are my key takeaways:</p>
+    <center><p>Efficiency/Learnability of Menu:</p></center>
+      <p>1. No reason to have the menu as hamburger even on website as there is room for full menu</p>
+      <p>2. Menu has 11 tabs, making it difficult to understand what information is where especially since each tab seems to have overlapping information </p>
+     <center> <p> Hierarchy, Layout, Font Size, and Memorability issues</p></center>
+      <p> 1. No textual hierarchy: logo has large text but rest text is the same size, not sure where to look first</p>
+      <p> 2. Banner is useless, doesn’t add any useful information to user experience</p>
+      <p> 3. Cupcakes themselves are not displayed, so not sure what is being sold, besides the 3 different logos being displayed</p>
+      <p> 4. Can see three two typefaces, with no aspect in common so don’t work together at all</p>
+      <p> 5. Color palette not aesthetic: 3 different shades of pink, gray, black and white</p>
+      <center><p> Conceptual Model and Accessibility issues</p></center>
+      <p>1. No forced similarity: 1 column vertical grid with lots of white space and no layout hierarchy </p>
+      <p>2. Low legibility: it is difficult to read text across the width of screen</p>
+     <p>3. When website is converted to tablet or mobile size, the menu overlaps onto the content</p> 
+
+<!-- A Container -->
+    <h5>ACCESSIBILITY</h5>
+    <p> In addition to analyzing the website on the three usability guidelines, I used WebAIM WAVE to detect possible accessibility problems. Here are its key findings</p>
+    <p> 1. Heading levels were skipped multiple times in the lower half of the webpage and in the menu
+     <p>2. Device dependent event handler: An event handler (hamburger menu) is present that may not be accessible.</p>
+      <p> 3.Suspicious link text: Link text (in the banner) contains extraneous text or may not make sense out of context.</p>
+      <p> 4. Contrast Errors with the dark pink background and white text in the hamburger menu: gained a score of 4.34</p>
+      <p> My take: I heavily agree with all of these detected problems, as they lead to issues with using this website on a tablet/phone and overall contributes to difficulty in understanding the website for a wide range of users.
+      </p>
+<!-- A Container -->
+
+    <h5>LOW FIDELITY REDESIGN</span></h5>
+    <p> Based on the problems I identified earlier and the page that you chose, I created 3 low-fidelity wireframes, a visual design style guide using Balsamiq (mobile, tablet, desktop). The following are screenshots of them, in order.</p>
+    <center> <img src="iphonewireframe.png" class="center" style="width:50%;max-width:800px"/> </center>
+    <center> <img src="ipadwireframe.png" class="center" style="width:50%;max-width:800px"/> </center>
+    <center> <img src="webwireframe.png" class="center" style="width:50%;max-width:800px"/> </center>
+
+
+<!-- Persona maps -->
+
+    <h5 >UI STYLE GUIDE</span></h5>
+    <p>Before I started the hi-fi prototypes, I created a visual design style guide in Figma that displays the main colors, typography, and reusable components’ different states (buttons on hover, click, etc.)</p>
+    <center> <img src="uistyleguide.png" class="center" style="width:80%;max-width:1200px"/> </center>
+
+
+<!-- Persona maps -->
+
+    <h5 >HIGH FIDELITY PROTOTYPES</span></h5>
+    <p>Using Figma, I created a total of 3 high-fidelity prototypes of your screen, one for each of the screen sizes (mobile, tablet, desktop). These are based on the low-fidelity wireframes I created with one exception: I made changes to the web version by making the pictures in 4-grid layout as opposed to the 2-grid. The overflow at the bottom indicates user scrolling down.</p>
+    <p> Additionally, the annotations for the iPhone and iPad mockups are below the images</p>
+    <center> <img src="iphonehighfid.png" class="center" style="width:50%;max-width:1200px"/>  </center>
+      <center> <img src="ipadhighfid.png" class="center" style="width:50%;max-width:1200px"/>  </center>
+        <center> <img src="webhighfid.png" class="center" style="width:50%;max-width:1200px"/>  </center>
+    <p> Here are the annotations for the iPhone and iPad mockups:</p>
+     <center><p> Page changes: <p></center> 
+       <p> 1. When user clicks any of the icons on the menu on top right</p>
+       <p> 2. When user clicks go to menu button</p>
+       <p> 3. When user clicks any of the social media icons</p> 
+      <center> <p> Fonts and Sizes:</p></center> 
+       <p> 1. Large elements use columns/grids of 1, 2, 3, or 4</p> 
+       <p> 2. Header will use h1</p>
+       <p> 3. Rest of the titles “House Favorites” “About the company” and “About Us” use h3</p> 
+       <p> 4. When in between sizes, for example with the contact us part, spacing needed to be adjusted slightly to accommodate the form</p>
+      <center> <p>  Accessibility:</p></center> 
+       <p>1. Menu drops directly down below the header for iPhone and iPad (usually on the right on website) </p>
+       <p> 2. Cupcakes are displayed in 4-grid on website, but are displayed in 2-grid for iPad and 1-grid for iPhone</p> 
+        </p>
+  <!-- </div>
+</div> -->
+
+<!-- Conclusion -->
+    <h5 >LINK TO REDESIGNED WEBPAGE</h5>
+<p> Click <a href="https://koolkoala1900.github.io/responsivesite/">here</a> to see the redesigned webpage! (https://koolkoala1900.github.io/responsivesite)</p>
+
+
+<h5 >TAKEAWAYS</span></h5>
+    <p>The redesign process taught me a lot about what it means to create a user-friendly and intuitive interface whilst still retaining the key pieces of information and content. I was shocked to see how big companies like Toronto Cupcake haven’t invested the time to create a responsive website for their customers. This process also gave me insight into the font, color, and design choices that need to be made for a company.</p>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+</body>
+</html>
+
+<!--Citations and Credits-->
+<!--Figma temp-->
+<!--CSS and HTML template for website: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_cafe-->
